@@ -23,7 +23,7 @@ transformations = [
 
 resolver = dns.resolver.Resolver(configure=False)
 resolver.nameservers = ["8.8.8.8", "1.1.1.1"]
-resolver.timeout = 3
+resolver.timeout = 10
 
 def dnssecQuery (target, record="NSEC"):
 	"""Wrapper to DNS resolve with DNSSEC options"""
