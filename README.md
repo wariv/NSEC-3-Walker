@@ -1,5 +1,13 @@
 Forked for preservation. Slightly modified for compatibility. Great tool, All thanks go to Harrison.
 
+install / usage
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install dnspython
+```
+
+
 
 # NSEC(3) Walker 🚶
 
